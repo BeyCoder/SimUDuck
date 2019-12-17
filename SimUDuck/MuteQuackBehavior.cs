@@ -11,7 +11,7 @@ namespace SimUDuck
     {
         public void Quack()
         {
-            Console.WriteLine("Я не умею крякать!");
+            Console.WriteLine("...тишина...");
         }
     }
 }

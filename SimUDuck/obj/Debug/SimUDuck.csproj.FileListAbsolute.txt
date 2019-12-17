@@ -1,0 +1,6 @@
+C:\Users\ABdu_9urb\source\repos\SimUDuck\SimUDuck\bin\Debug\SimUDuck.exe.config
+C:\Users\ABdu_9urb\source\repos\SimUDuck\SimUDuck\bin\Debug\SimUDuck.exe
+C:\Users\ABdu_9urb\source\repos\SimUDuck\SimUDuck\bin\Debug\SimUDuck.pdb
+C:\Users\ABdu_9urb\source\repos\SimUDuck\SimUDuck\obj\Debug\SimUDuck.csprojAssemblyReference.cache
+C:\Users\ABdu_9urb\source\repos\SimUDuck\SimUDuck\obj\Debug\SimUDuck.exe
+C:\Users\ABdu_9urb\source\repos\SimUDuck\SimUDuck\obj\Debug\SimUDuck.pdb

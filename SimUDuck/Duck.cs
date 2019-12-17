@@ -6,7 +6,27 @@ using System.Threading.Tasks;
 
 namespace SimUDuck
 {
-    class Duck
+    abstract class Duck
     {
+        protected IQuackBehavior quackBehavior;
+        protected IFlyBehavior flyBehavior;
+        public Duck()
+        {
+
+        }
+        public abstract void Display();
+        public void PerformQuack()
+        {
+            quackBehavior.Quack();
+        }
+        public void PerformFly()
+        {
+            flyBehavior.Fly();
+        }
+
+        public void Swim()
+        {
+            Console.WriteLine("Все утки умеют плавать!");
+        }
     }
 }
