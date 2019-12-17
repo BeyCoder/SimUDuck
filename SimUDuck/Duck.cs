@@ -8,8 +8,8 @@ namespace SimUDuck
 {
     abstract class Duck
     {
-        protected IQuackBehavior quackBehavior;
-        protected IFlyBehavior flyBehavior;
+        public IQuackBehavior quackBehavior { set; get; }
+        public IFlyBehavior flyBehavior { set; get; }
         public Duck()
         {
 

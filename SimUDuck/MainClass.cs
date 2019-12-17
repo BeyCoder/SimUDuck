@@ -10,7 +10,19 @@ namespace SimUDuck
     {
         static void Main(string[] args)
         {
-            
+            MallardDuck duck = new MallardDuck();
+            duck.Display();
+            duck.PerformFly();
+            duck.PerformQuack();
+            duck.Swim();
+
+            Console.WriteLine();
+
+            ModelDuck model = new ModelDuck();
+            model.Display();
+            model.PerformFly();
+            model.PerformQuack();
+            model.Swim();
         }
     }
 }
