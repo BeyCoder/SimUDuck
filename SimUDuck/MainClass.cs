@@ -23,6 +23,23 @@ namespace SimUDuck
             model.PerformFly();
             model.PerformQuack();
             model.Swim();
+
+            model.flyBehavior = new FlyRocketPowered();
+            model.PerformFly();
+
+            RedheadDuck model2 = new RedheadDuck();
+            model2.Display();
+            model2.PerformFly();
+            model2.PerformQuack();
+            model2.Swim();
+            
+            RubberDuck model3 = new RubberDuck();
+            model3.Display();
+            model3.PerformFly();
+            model3.PerformQuack();
+            model3.Swim();
+
+
         }
     }
 }
